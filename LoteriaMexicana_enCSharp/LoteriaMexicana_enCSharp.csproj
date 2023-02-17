@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{24B3161B-F9EE-4253-A2DE-783885604C4A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LoteriaMexicana_enCSharp</RootNamespace>
+    <AssemblyName>LoteriaMexicana_enCSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loteria+Logo copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\53loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\47loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\46loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\45loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\40loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\38loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\37loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\33loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\29loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\28loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\26loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2loteria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-ElGallo.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

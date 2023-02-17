@@ -1,0 +1,10 @@
+C:\Users\KevinPC\source\repos\LoteriaMexicana_enCSharp\LoteriaMexicana_enCSharp\bin\Debug\LoteriaMexicana_enCSharp.exe.config
+C:\Users\KevinPC\source\repos\LoteriaMexicana_enCSharp\LoteriaMexicana_enCSharp\bin\Debug\LoteriaMexicana_enCSharp.exe
+C:\Users\KevinPC\source\repos\LoteriaMexicana_enCSharp\LoteriaMexicana_enCSharp\bin\Debug\LoteriaMexicana_enCSharp.pdb
+C:\Users\KevinPC\source\repos\LoteriaMexicana_enCSharp\LoteriaMexicana_enCSharp\obj\Debug\LoteriaMexicana_enCSharp.csproj.AssemblyReference.cache
+C:\Users\KevinPC\source\repos\LoteriaMexicana_enCSharp\LoteriaMexicana_enCSharp\obj\Debug\LoteriaMexicana_enCSharp.Form1.resources
+C:\Users\KevinPC\source\repos\LoteriaMexicana_enCSharp\LoteriaMexicana_enCSharp\obj\Debug\LoteriaMexicana_enCSharp.Properties.Resources.resources
+C:\Users\KevinPC\source\repos\LoteriaMexicana_enCSharp\LoteriaMexicana_enCSharp\obj\Debug\LoteriaMexicana_enCSharp.csproj.GenerateResource.cache
+C:\Users\KevinPC\source\repos\LoteriaMexicana_enCSharp\LoteriaMexicana_enCSharp\obj\Debug\LoteriaMexicana_enCSharp.csproj.CoreCompileInputs.cache
+C:\Users\KevinPC\source\repos\LoteriaMexicana_enCSharp\LoteriaMexicana_enCSharp\obj\Debug\LoteriaMexicana_enCSharp.exe
+C:\Users\KevinPC\source\repos\LoteriaMexicana_enCSharp\LoteriaMexicana_enCSharp\obj\Debug\LoteriaMexicana_enCSharp.pdb
