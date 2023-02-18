@@ -109,10 +109,18 @@ namespace LoteriaMexicana_enCSharp
                     {
                         if (botonCarta.Name == idCarta.ToString())
                         {
-                            botonCarta.Enabled = false;
-                            botonCarta.ForeColor = Color.Red;
-                            VerificaChorro();
+                            if (botonCarta.Name == "1" || botonCarta.Name == "2" || botonCarta.Name == "3" || botonCarta.Name == "4" 
+                                )
+                            {
+                                VerificaChorro();
+                                botonCarta.Enabled = false;
+                                botonCarta.ForeColor = Color.Red;
+                            }
+                            
+                            
                         }
+
+                        
 
                     }
                 }
